@@ -1,12 +1,12 @@
-    let screen = document.querySelector('canvas');
-	let paint = screen.getContext('2d');		
+    const screen = document.querySelector('canvas');
+	const paint = screen.getContext('2d');		
 	paint.fillStyle = 'lightgrey';
 	paint.fillRect(0,0,600,400); 
 
-	let radio = 10;
+	const radio = 10;
 	let xRandom;
 	let yRandom;
-	let x = 0
+	let x = 0;
 
 	const grithDesign = (x, y, radio, color) => {
 		paint.fillStyle = color;
