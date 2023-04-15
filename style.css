@@ -1,0 +1,14 @@
+body {
+    background-color: #80deea ;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #4a148c;
+}
+
+h2 {
+    margin-top: 3%;
+}
+
+canvas {
+    padding: 8%;
+}
